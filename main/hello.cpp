@@ -1,10 +1,12 @@
-//File: hello.cpp
+// File: hello.cpp
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main(void)
+{
   cout << "Hello, World\n";
   cout << "Hello, Jenkins\n";
   cout << "I have successfully built and run\n";
+  cout << "Testing the Webhook of GitHub in Jenkins\n";
   return 0;
 }

@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ -o PES1UG20CS667 hello-world.cpp'
+                sh 'g++ -o PES1UG20CS667 PES1UG20CS667.cpp'
                 build job: 'PES1UG20CS667-1'
             }
         }
@@ -17,9 +17,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                // echo 'Build Success'
-                //Deploy should fail 
-                sh './///////PES1UG20CS667'
+                echo 'Success'
             }
         }
     }

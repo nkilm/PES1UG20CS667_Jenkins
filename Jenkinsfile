@@ -17,7 +17,9 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                echo 'Build Success'
+                // echo 'Build Success'
+                //Deploy should fail 
+                sh './///////PES1UG20CS667'
             }
         }
     }
